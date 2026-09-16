@@ -28,21 +28,21 @@ const SOCIAL_LINKS = [
 
 export function Footer() {
   return (
-    <footer className="mt-16 border-t border-gray-200 bg-white">
+    <footer className="mt-16 border-t border-gray-800 bg-gray-900">
       <div className="container-app grid gap-8 py-10 sm:grid-cols-2 md:grid-cols-4">
         <div>
-          <span className="text-lg font-extrabold tracking-tight text-gray-900">
-            ASD <span className="text-brand-600">Annonces</span>
+          <span className="text-lg font-extrabold tracking-tight text-white">
+            ASD <span className="text-brand-400">Annonces</span>
           </span>
-          <p className="mt-3 text-sm text-gray-500">
+          <p className="mt-3 text-sm text-gray-400">
             La plateforme de petites annonces simple et gratuite au Maroc.
           </p>
         </div>
         <div>
-          <h3 className="mb-3 text-sm font-semibold text-gray-900">
+          <h3 className="mb-3 text-sm font-semibold text-white">
             Catégories
           </h3>
-          <ul className="space-y-2 text-sm text-gray-500">
+          <ul className="space-y-2 text-sm text-gray-400">
             <li>Immobilier</li>
             <li>Véhicules</li>
             <li>Emploi</li>
@@ -50,18 +50,18 @@ export function Footer() {
           </ul>
         </div>
         <div>
-          <h3 className="mb-3 text-sm font-semibold text-gray-900">
+          <h3 className="mb-3 text-sm font-semibold text-white">
             À propos
           </h3>
-          <ul className="space-y-2 text-sm text-gray-500">
+          <ul className="space-y-2 text-sm text-gray-400">
             <li>Comment ça marche</li>
             <li>Sécurité & conseils</li>
             <li>Contact</li>
           </ul>
         </div>
         <div>
-          <h3 className="mb-3 text-sm font-semibold text-gray-900">Suivez-nous</h3>
-          <p className="text-sm text-gray-500">
+          <h3 className="mb-3 text-sm font-semibold text-white">Suivez-nous</h3>
+          <p className="text-sm text-gray-400">
             Retrouvez ASD Annonces sur les réseaux sociaux.
           </p>
           <div className="mt-3 flex items-center gap-3">
@@ -72,7 +72,7 @@ export function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label={social.name}
-                className="flex h-9 w-9 items-center justify-center rounded-full border border-gray-200 text-gray-500 transition-colors hover:border-brand-600 hover:text-brand-600"
+                className="flex h-9 w-9 items-center justify-center rounded-full border border-gray-700 text-gray-400 transition-colors hover:border-brand-500 hover:text-brand-400"
               >
                 <svg
                   viewBox="0 0 24 24"
@@ -90,14 +90,14 @@ export function Footer() {
           </div>
         </div>
       </div>
-      <div className="border-t border-gray-100 py-6">
+      <div className="border-t border-gray-800 py-6">
         <div className="container-app flex justify-center">
-          <div className="flex h-[100px] w-full max-w-sm items-center justify-center rounded-lg border-2 border-dashed border-gray-300 bg-gray-50 text-center text-xs text-gray-400">
+          <div className="flex h-[100px] w-full max-w-sm items-center justify-center rounded-lg border-2 border-dashed border-gray-700 bg-gray-800 text-center text-xs text-gray-300">
             Emplacement publicitaire disponible (300x100)
           </div>
         </div>
       </div>
-      <div className="border-t border-gray-100 py-4 text-center text-xs text-gray-400">
+      <div className="border-t border-gray-800 py-4 text-center text-xs text-gray-400">
         © {new Date().getFullYear()} ASD Annonces. Tous droits réservés.
       </div>
     </footer>
