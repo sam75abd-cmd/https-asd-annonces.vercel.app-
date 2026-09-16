@@ -1,7 +1,7 @@
 const SOCIAL_LINKS = [
   {
     name: "Instagram",
-    href: "https://instagram.com/asdannonces",
+    href: "https://instagram.com/asd75distribution",
     path: (
       <>
         <rect x="3" y="3" width="18" height="18" rx="5" />
