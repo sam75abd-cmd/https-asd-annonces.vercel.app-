@@ -35,7 +35,7 @@ export function Footer() {
             ASD <span className="text-brand-400">Annonces</span>
           </span>
           <p className="mt-3 text-sm text-gray-400">
-            La plateforme de petites annonces simple et gratuite au Maroc.
+            La plateforme de petites annonces simple et gratuite.
           </p>
         </div>
         <div>
