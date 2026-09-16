@@ -46,7 +46,7 @@ export function HomePage() {
           </h1>
           <p className="mx-auto mt-3 max-w-xl text-gray-600">
             ASD Annonces, la marketplace de petites annonces gratuite et
-            simple au Maroc.
+            simple.
           </p>
           <form
             onSubmit={handleSearch}
