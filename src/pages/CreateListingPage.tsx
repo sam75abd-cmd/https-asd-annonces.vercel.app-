@@ -204,7 +204,7 @@ export function CreateListingPage() {
                 <button
                   type="button"
                   onClick={() => removeImage(i)}
-                  className="absolute -right-2 -top-2 rounded-full bg-white p-1 shadow"
+                  className="absolute -right-2 -top-2 rounded-full bg-gray-100 p-1 shadow"
                 >
                   <X className="h-3.5 w-3.5" />
                 </button>
