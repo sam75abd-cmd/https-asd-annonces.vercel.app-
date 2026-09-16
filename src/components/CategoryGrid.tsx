@@ -13,6 +13,8 @@ const EMOJIS: Record<string, string> = {
   building: "🏢",
   motorcycle: "🏍️",
   tool: "🛠️",
+  store: "🏪",
+  boat: "⛵",
 };
 
 export function CategoryGrid({ categories }: { categories: Category[] }) {
