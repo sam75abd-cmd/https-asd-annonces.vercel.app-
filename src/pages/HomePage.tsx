@@ -39,7 +39,7 @@ export function HomePage() {
 
   return (
     <div>
-      <section className="bg-gradient-to-b from-brand-50 to-white py-14">
+      <section className="bg-gradient-to-b from-brand-50 to-gray-200 py-14">
         <div className="container-app text-center">
           <h1 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
             Achetez et vendez près de chez vous
