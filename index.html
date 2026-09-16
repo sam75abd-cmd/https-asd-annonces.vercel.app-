@@ -1,56 +1,87 @@
 <!doctype html>
 <html lang="fr">
-<head>
-  <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>ASD Annonces - Petites annonces gratuites au Maroc</title>
-  <meta name="google-site-verification" content="JjFAFtShsQAZQ2QadXDBOjGtZnx8mTOiqMU23qUG2P8" />
-  <meta
-    name="description"
-    content="ASD Annonces : achetez et vendez gratuitement au Maroc. Immobilier, véhicules, emploi, électronique, mode et plus, partout à Casablanca, Rabat, Marrakech, Fès, Tanger et dans tout le pays."
-  />
-  <meta
-    name="keywords"
-    content="annonces Maroc, petites annonces Maroc, acheter vendre Maroc, immobilier Maroc, voitures occasion Maroc, emploi Maroc, annonces gratuites, Casablanca, Rabat, Marrakech, Fès, Tanger"
-  />
-  <meta name="author" content="ASD Annonces" />
-  <meta name="robots" content="index, follow" />
-  <link rel="canonical" href="https://asd-annonces.vercel.app/" />
+    <title>ASD Annonces - Petites annonces gratuites au Maroc</title>
+    <meta name="google-site-verification" content="JjFAFtShsQAZQ2QadXDBOjGtZnx8mTOiqMU23qUG2P8" />
+    <meta
+      name="description"
+      content="ASD Annonces : achetez et vendez gratuitement au Maroc et en Afrique du Nord. Immobilier, véhicules, emploi, électronique, mode et plus, partout à Casablanca, Rabat, Marrakech, Fès, Tanger et dans tout le pays."
+    />
+    <meta
+      name="keywords"
+      content="annonces Maroc, petites annonces Maroc, acheter vendre Maroc, immobilier Maroc, voitures occasion Maroc, emploi Maroc, annonces gratuites, annonces Afrique, annonces Afrique du Nord, Casablanca, Rabat, Marrakech, Fès, Tanger"
+    />
+    <meta name="author" content="ASD Annonces" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://asd-annonces.vercel.app/" />
+    <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
 
-  <!-- Ciblage géographique Maroc -->
-  <meta name="geo.region" content="MA" />
-  <meta name="geo.placename" content="Maroc" />
-  <meta name="ICBM" content="31.7917, -7.0926" />
-  <meta name="language" content="French" />
+    <!-- Ciblage géographique Maroc / Afrique du Nord -->
+    <meta name="geo.region" content="MA" />
+    <meta name="geo.placename" content="Maroc, Afrique du Nord" />
+    <meta name="ICBM" content="31.7917, -7.0926" />
+    <meta name="language" content="French" />
 
-  <!-- Open Graph / Facebook -->
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://asd-annonces.vercel.app/" />
-  <meta property="og:title" content="ASD Annonces - Petites annonces gratuites au Maroc" />
-  <meta
-    property="og:description"
-    content="Achetez et vendez gratuitement au Maroc : immobilier, véhicules, emploi, électronique, mode et plus."
-  />
-  <meta property="og:locale" content="fr_MA" />
-  <meta property="og:site_name" content="ASD Annonces" />
-  <meta property="og:image" content="https://asd-annonces.vercel.app/og-image.png" />
-  <meta property="og:image:width" content="1200" />
-  <meta property="og:image:height" content="630" />
-  <meta property="og:image:alt" content="ASD Annonces - Achetez et vendez gratuitement au Maroc" />
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://asd-annonces.vercel.app/" />
+    <meta property="og:title" content="ASD Annonces - Petites annonces gratuites au Maroc" />
+    <meta
+      property="og:description"
+      content="Achetez et vendez gratuitement au Maroc et en Afrique du Nord : immobilier, véhicules, emploi, électronique, mode et plus."
+    />
+    <meta property="og:locale" content="fr_MA" />
+    <meta property="og:site_name" content="ASD Annonces" />
+    <meta property="og:image" content="https://asd-annonces.vercel.app/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="ASD Annonces - Achetez et vendez gratuitement au Maroc" />
 
-  <!-- Twitter -->
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="ASD Annonces - Petites annonces gratuites au Maroc" />
-  <meta
-    name="twitter:description"
-    content="Achetez et vendez gratuitement au Maroc : immobilier, véhicules, emploi, électronique, mode et plus."
-  />
-  <meta name="twitter:image" content="https://asd-annonces.vercel.app/og-image.png" />
-</head>
-<body>
-  <div id="root"></div>
-  <script type="module" src="/src/main.tsx"></script>
-</body>
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="ASD Annonces - Petites annonces gratuites au Maroc" />
+    <meta
+      name="twitter:description"
+      content="Achetez et vendez gratuitement au Maroc et en Afrique du Nord : immobilier, véhicules, emploi, électronique, mode et plus."
+    />
+    <meta name="twitter:image" content="https://asd-annonces.vercel.app/og-image.png" />
+
+    <!-- Données structurées Schema.org -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "ASD Annonces",
+        "url": "https://asd-annonces.vercel.app/",
+        "description": "Plateforme de petites annonces gratuites au Maroc et en Afrique du Nord : immobilier, véhicules, emploi, électronique, mode et plus.",
+        "inLanguage": "fr",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://asd-annonces.vercel.app/annonces?q={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "ASD Annonces",
+        "url": "https://asd-annonces.vercel.app/",
+        "logo": "https://asd-annonces.vercel.app/favicon.svg",
+        "areaServed": {
+          "@type": "Place",
+          "name": "Maroc, Afrique du Nord"
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
 </html>
