@@ -19,7 +19,7 @@ const SOCIAL_LINKS = [
   },
   {
     name: "Facebook",
-    href: "https://facebook.com/asdannonces",
+    href: "https://www.facebook.com/profile.php?id=61594592783622",
     path: (
       <path d="M14.5 21v-7h2.4l.4-2.8h-2.8V9.4c0-.8.2-1.4 1.4-1.4h1.5V5.5c-.3 0-1.1-.1-2.1-.1-2.1 0-3.5 1.3-3.5 3.6v2.2H9.4V14h2.4v7h2.7Z" />
     ),
