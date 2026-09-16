@@ -16,18 +16,18 @@ export function Header() {
   }
 
   return (
-    <header className="sticky top-0 z-30 border-b border-gray-200 bg-white/95 backdrop-blur">
+    <header className="sticky top-0 z-30 border-b border-gray-800 bg-gray-900/95 backdrop-blur">
       <div className="container-app flex h-16 items-center gap-4">
         <Link to="/" className="flex items-center gap-2 shrink-0">
           <span className="flex h-9 w-9 items-center justify-center rounded-lg bg-brand-600 text-base font-bold text-white">
             A
           </span>
-          <span className="text-lg font-extrabold tracking-tight text-gray-900">
-            ASD <span className="text-brand-600">Annonces</span>
+          <span className="text-lg font-extrabold tracking-tight text-white">
+            ASD <span className="text-brand-400">Annonces</span>
           </span>
         </Link>
 
-        <div className="ml-2 hidden h-10 w-[300px] shrink-0 items-center justify-center rounded-md border border-dashed border-gray-300 bg-gray-50 text-center text-[11px] leading-tight text-gray-400 lg:flex">
+        <div className="ml-2 hidden h-10 w-[300px] shrink-0 items-center justify-center rounded-md border border-dashed border-gray-600 bg-gray-800 text-center text-[11px] leading-tight text-gray-300 lg:flex">
           Espace publicitaire disponible (300x50)
         </div>
 
@@ -70,7 +70,7 @@ export function Header() {
         </div>
 
         <button
-          className="ml-auto md:hidden"
+          className="ml-auto text-white md:hidden"
           onClick={() => setMobileOpen((v) => !v)}
           aria-label="Menu"
         >
@@ -79,7 +79,7 @@ export function Header() {
       </div>
 
       {mobileOpen && (
-        <div className="border-t border-gray-200 px-4 py-4 md:hidden">
+        <div className="border-t border-gray-800 px-4 py-4 md:hidden">
           <form onSubmit={handleSearch} className="mb-3">
             <div className="relative">
               <Search className="pointer-events-none absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-gray-400" />
